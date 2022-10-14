@@ -45,6 +45,26 @@
   margin-left: auto;
 }
 
+.form-control {
+  border-radius: 100px;
+}
+
+.form-control::placeholder {
+  color: #2370C8;
+  opacity: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.18rem;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: focus;
+  margin-left: -33px;
+}
+
 .company-heading {
   margin-top: 10%;
   margin-left: 10%;
