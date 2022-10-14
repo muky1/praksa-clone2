@@ -1,0 +1,127 @@
+/****************** FIRST CONTAINER **********************/
+.first-container {
+  height: 813px;
+  background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+}
+
+.navbar {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 15%;
+  width: 100%;
+  color: inherit;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.87rem;
+  line-height: 2.18rem;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.navbar-items {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.18rem;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.company-heading {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.first-heading {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-height: 5.31rem;
+  color: #FFFFFF;
+}
+
+.first-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.68rem;
+  color: #FAFAFA;
+}
+
+.button-div1 {
+  width: 160px;
+  height: 48px;
+  background: #2370C8;
+  border-radius: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+/****************** SECOND CONTAINER **********************/
+.second-container {
+  height: 1200px;
+}
+
+.second-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.87rem;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  color: #2370C8;
+  margin-top: 10%;
+}
+
+.second-heading {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-align: center;
+  color: #262A4E;
+}
+
+/****************** THIRD CONTAINER **********************/
+
+
+
+
+/****************** FOURTH CONTAINER **********************/
+
+
+
+
+/****************** FIFTH CONTAINER **********************/
+
+
+
+
+/****************** SIXTH CONTAINER **********************/
