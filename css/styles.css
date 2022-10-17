@@ -7,8 +7,7 @@
 .navbar {
   display: flex;
   margin-left: 5%;
-  margin-right: 15%;
-  width: 100%;
+  margin-right: 5%;
   color: inherit;
 }
 
@@ -100,6 +99,11 @@
   display: flex;
 }
 
+.button-div1:hover {
+  background: #FFFFFF;
+  color: #000000;
+}
+
 
 
 
@@ -129,8 +133,140 @@
   color: #262A4E;
 }
 
-/****************** THIRD CONTAINER **********************/
+.btn {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 5px;
+}
 
+.img-fluid {
+  height: 70px;
+  width: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.card {
+  background-color: #CFEAFF;
+}
+
+.card:hover {
+  background-color: #FFFFFF;
+  border-color: #2370C8;
+}
+
+.about-us {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.about-us-img {
+  margin-right: 5%;
+}
+
+.about-us-text {
+  text-align: left;
+}
+
+.about-us-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.87rem;
+  letter-spacing: 0.15rem;
+  color: #2370C8;
+  margin-bottom: 5%;
+}
+
+.about-us-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+  color: #262A4E;
+  margin-bottom: 5%;
+}
+
+.about-us-description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #646464;
+  margin-bottom: 5%;
+}
+
+.button-div2 {
+  height: 48px;
+  width: 160px;
+  border-radius: 30px;
+  background-color: #2370C8;
+  color: #FFFFFF;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-div2:hover {
+  background: #646464;
+}
+
+
+
+/****************** THIRD CONTAINER **********************/
+.third-container {
+  height: 500px;
+  background: #F2F9FF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.third-container-wrapper {
+  height: 292px;
+  width: 1348px;
+  border-radius: 5px;
+  border: 5px solid #FFFFFF;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.third-container-row {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  width: 27%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item2 {
+  width: 27%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.item3 {
+  width: 27%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
 
