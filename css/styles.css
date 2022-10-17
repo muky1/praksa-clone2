@@ -136,15 +136,12 @@
 .btn {
   height: 45px;
   width: 45px;
+  font-size: 1.2rem;
   border-radius: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
-  display: inline-block;
-}
-
-.arrow {
-  font-size: 1.2rem;
+  display: inline-flex;
 }
 
 .img-fluid {
