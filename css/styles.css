@@ -161,10 +161,6 @@
   border-color: #2370C8;
 }
 
-.carousel-indicators .active{
-  background-color: #f00;
-}
-
 .about-us {
   margin-left: auto;
   margin-right: auto;
@@ -351,19 +347,26 @@
 .seventh-container {
   height: 690px;
   background: #3782D7E5;
-  margin-inline: auto;
   align-items: center;
-  display: flex;
+  justify-content: center;
 }
 
-.seventh-container-heading {
+.seventh-heading-div {
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   font-weight: 500;
   line-height: 3.5rem;
   text-align: center;
   color: #FFFFFF;
-  padding-top: 5%;
+  padding-top: 8%;
+}
+
+.seventh-wrapper-div {
+  display: flex;
+  width: fit-content;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .seventh-inner-div {
@@ -373,10 +376,33 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3%;
+}
+
+.seventh-inner-div2 {
+  height: 371px;
+  width: 659px;
+  background: rgba(55, 130, 215, 0.5);
+  justify-content: center;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.01em;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
 }
+
+ .inner-div-img {
+   margin-bottom: 3%;
+ }
+
+ .inner-div-heading {
+   margin-bottom: 2%;
+ }
 
 /****************** EIGHTH CONTAINER **********************/
 .eighth-container {
