@@ -345,7 +345,7 @@
 
 /****************** SEVENTH CONTAINER **********************/
 .seventh-container {
-  height: 690px;
+  height: 720px;
   background: #3782D7E5;
   align-items: center;
   justify-content: center;
@@ -408,4 +408,64 @@
 .eighth-container {
   height: 1000px;
   background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.eighth-blog-div {
+  width: 365px;
+}
+
+.eighth-blog-content-div {
+  height: 485px;
+  width: 455px;
+  background: #3782D7;
+  margin-left: 1.5%;
+}
+
+.eighth-blog-content-div2 {
+  height: 485px;
+  width: 455px;
+  background: #FFFFFF;
+  border: 1px solid #3782D7;
+  margin-left: 1.5%;
+}
+
+.eighth-button-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+.eighth-button1 {
+  border-radius: 100%;
+  border: 2px;
+  opacity: 100%;
+  height: 30px;
+  width: 30px;
+}
+
+.eighth-button2 {
+  border-radius: 100%;
+  border: 2px;
+  opacity: 100%;
+  height: 30px;
+  width: 30px;
+  background: #2370C8;
+  margin-top: 12px;
+}
+
+.blog-hr {
+  width: 20%;
+  border-width: 3px;
+  color: #2370C8;
+  background-color: #2370C8;
+  opacity: 100%;
+}
+/****************** FOOTER CONTAINER **********************/
+.footer-container {
+  height: 490px;
+  background: #F2F9FF;
 }
