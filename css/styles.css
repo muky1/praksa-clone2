@@ -329,6 +329,7 @@ body {
   font-size: 1.37rem;
   line-height: 1.56rem;
   color: #262A4E;
+  opacity: 100%;
 }
 
 .employee-div2 {
@@ -396,6 +397,56 @@ body {
   text-align: left;
   color: #262A4E;
   margin-left: 10%;
+}
+
+.div-pricing {
+  width: fit-content;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 7%;
+}
+
+.pricing-body {
+  height: 553px;
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 48px rgba(185, 215, 238, 0.4);
+}
+
+.pricing-body-img {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.pricing-body:hover {
+  background: #2370C8;
+  color: #FFFFFF;
+}
+
+.pricing-button {
+  height: 42px;
+  width: 136px;
+  border-radius: 30px;
+  background: #2370C8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.18rem;
+}
+
+.pricing-button:hover {
+  background: #FFFFFF;
+  color: #2370C8;
 }
 
 /****************** SEVENTH CONTAINER **********************/
