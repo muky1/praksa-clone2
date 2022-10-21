@@ -145,12 +145,14 @@ body {
 }
 
 .card {
-  background-color: #CFEAFF;
+  background: #E5F3FE;
+  border: 3px solid #CFEAFF;
 }
 
-.active, .card:hover {
-  background-color: #FFFFFF;
-  border-color: #2370C8;
+.card:hover {
+  background: #FFFFFF;
+  border: 2px solid #2370C8;
+  box-shadow: 0px 4px 12px #D2EBFF;
 }
 
 .about-us {
@@ -160,15 +162,23 @@ body {
   align-items: center;
   display: flex;
   text-align: left;
-  width: fit-content;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .about-us-img {
   margin-inline: auto;
+  margin-bottom: 2%;
+}
+
+.img-gray {
+  width: 100%;
+  height: 100%;
 }
 
 .about-us-text {
-  margin-inline: auto;
+  margin-left: 3%;
+  width: fit-content;
 }
 
 .about-us-paragraph {
@@ -406,6 +416,7 @@ body {
 .pricing-body:hover {
   background: #2370C8;
   color: #FFFFFF;
+  box-shadow: 0px 8px 48px rgba(185, 215, 238, 0.4);
 }
 
 .pricing-button {
@@ -455,6 +466,7 @@ body {
   height: 371px;
   width: 659px;
   background: rgba(55, 130, 215, 0.5);
+  border: 1px solid #6AB0FF;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -463,13 +475,14 @@ body {
   display: flex;
   flex-direction: column;
   margin-inline:auto;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .seventh-inner-div2 {
   height: 371px;
   width: 659px;
   background: rgba(55, 130, 215, 0.5);
+  border: 1px solid #6AB0FF;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -477,8 +490,8 @@ body {
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  margin-inline:auto;
-  margin-bottom: 2%;
+  margin-inline: auto;
+  margin-bottom: 5%;
 }
 
  .inner-div-img {
@@ -491,16 +504,24 @@ body {
 
 /****************** EIGHTH CONTAINER **********************/
 .eighth-container {
-  height: 1000px;
   background: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
+  padding: 15% 0;
+}
+
+.eighth-container-wrapper {
+  margin-inline: auto;
+  align-items: center;
+  width: 80%;
 }
 
 .eighth-blog-div {
-  width: 365px;
+  width: 300px;
+  margin-bottom: 3%;
+  margin-inline: auto;
 }
 
 .eighth-paragraph {
@@ -549,11 +570,12 @@ body {
   width: 455px;
   background: #FFFFFF;
   border: 1px solid #3782D7;
-  margin-left: 1.5%;
+  margin-left: 2%;
   display: flex;
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  margin-bottom: 3%;
 }
 
 .eighth-blog-content-div:hover {
@@ -565,7 +587,8 @@ body {
 .eighth-button-div {
   display: flex;
   flex-direction: column;
-  margin-left: 1%;
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .eighth-button1 {
@@ -603,6 +626,88 @@ body {
 }
 /****************** FOOTER CONTAINER **********************/
 .footer-container {
-  height: 490px;
+
   background: #F2F9FF;
+}
+
+.footer-container-wrapper {
+  display: flex;
+  margin-inline: auto;
+  width: 80%;
+  padding: 5% 0;
+}
+
+.footer-logo {
+  width: 380px;
+  margin-right: 13%;
+}
+
+.footer-logo-h {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.62rem;
+  color: #2370C8;
+}
+
+.footer-logo-p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.56rem;
+  color: #646464;
+  margin-bottom: 15%;
+}
+
+.footer-img {
+  margin-top: 5px;
+  height: 75px;
+  width: 75px;
+}
+
+.footer-img2 {
+  margin-right: 20px;
+}
+
+.our-links {
+  width: fit-content;
+  margin-right: 13%;
+}
+
+.footer-home {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #2370C8;
+}
+
+.footer-p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #646464;
+}
+
+.footer-h {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+  color: #262A4E;
+}
+
+.our-company {
+  width: fit-content;
+  margin-right: 13%;
+}
+
+.our-services {
+  width: fit-content;
+}
+
+.footer-hr {
+  border: 1px solid #7AB8FF;
+  opacity: 80%;
+}
+
+.copyright-div {
+  text-align: center;
+  padding: 10px 0;
 }
