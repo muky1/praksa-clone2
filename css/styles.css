@@ -1,6 +1,7 @@
 /****************** TAG SELECTORS **********************/
 body {
   font-family: 'Roboto', sans-serif;
+
 }
 /****************** FIRST CONTAINER **********************/
 .first-container {
@@ -125,15 +126,32 @@ body {
   color: #262A4E;
 }
 
-.btn {
+.btn1 {
+  position: relative;
   height: 45px;
   width: 45px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   border-radius: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
   display: inline-flex;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  background: #E0E0E0;
+}
+
+.btn2 {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  font-size: 1.3rem;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-flex;
+  margin-bottom: 50px;
 }
 
 .img-fluid {
@@ -419,6 +437,11 @@ body {
   box-shadow: 0px 8px 48px rgba(185, 215, 238, 0.4);
 }
 
+.pricing-body:hover .pricing-button {
+  background: #FFFFFF;
+  color: #2370C8;
+}
+
 .pricing-button {
   height: 42px;
   width: 136px;
@@ -432,12 +455,6 @@ body {
   font-weight: 700;
   line-height: 1.18rem;
 }
-
-.pricing-button:hover {
-  background: #FFFFFF;
-  color: #2370C8;
-}
-
 /****************** SEVENTH CONTAINER **********************/
 .seventh-container {
   background: #3782D7E5;
@@ -626,20 +643,20 @@ body {
 }
 /****************** FOOTER CONTAINER **********************/
 .footer-container {
-
   background: #F2F9FF;
 }
 
 .footer-container-wrapper {
   display: flex;
   margin-inline: auto;
-  width: 80%;
+  align-items: center;
+  justify-content: center;
   padding: 5% 0;
 }
 
 .footer-logo {
   width: 380px;
-  margin-right: 13%;
+  margin-inline: auto;
 }
 
 .footer-logo-h {
@@ -654,7 +671,7 @@ body {
   font-weight: 500;
   line-height: 1.56rem;
   color: #646464;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .footer-img {
@@ -669,7 +686,8 @@ body {
 
 .our-links {
   width: fit-content;
-  margin-right: 13%;
+  margin-inline: auto;
+
 }
 
 .footer-home {
@@ -695,16 +713,23 @@ body {
 
 .our-company {
   width: fit-content;
-  margin-right: 13%;
+  margin-inline: auto;
+
 }
 
 .our-services {
   width: fit-content;
+  margin-inline: auto;
+
 }
 
 .footer-hr {
-  border: 1px solid #7AB8FF;
+  border: solid #7AB8FF;
   opacity: 80%;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
 }
 
 .copyright-div {
