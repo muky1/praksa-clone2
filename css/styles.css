@@ -767,6 +767,14 @@ body {
   border-bottom: none;
 }
 
+.footer-div-hr {
+  border: solid #2370C8;;
+  opacity: 100%;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
 .copyright-div {
   text-align: center;
   padding: 10px 0;
