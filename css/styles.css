@@ -272,7 +272,6 @@ body {
 /****************** FOURTH CONTAINER **********************/
 .fourth-container {
   background: #FFFFFF;
-  height: 1000px;
 }
 
 .fourth-paragraph {
@@ -282,7 +281,7 @@ body {
   letter-spacing: 0.15rem;
   text-align: left;
   color: #2370C8;
-  margin-top: 5%;
+  margin-top: 7.5%;
   margin-left: 10%;
 }
 
@@ -293,9 +292,34 @@ body {
   text-align: left;
   color: #262A4E;
   margin-left: 10%;
+  margin-bottom: 2.5%;
 }
 
+.fourth-container-wrapper {
+  justify-content: center;
+  width: 75%;
+  margin-inline: auto;
+}
 
+.latest-work-div {
+  height: 300px;
+  width: 350px;
+  background-color: #E7E7E7;
+  margin-inline: auto;
+  margin-bottom: 3%;
+  position: relative;
+  text-align: center;
+}
+
+.latest-work-text {
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 2.62rem;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
 /****************** FIFTH CONTAINER **********************/
 .fifth-container {
   background: #F2F9FF;
@@ -474,7 +498,7 @@ body {
 
 .seventh-wrapper-div {
   display: flex;
-  width: 72%;
+  width: 92%;
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
