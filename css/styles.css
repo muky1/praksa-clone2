@@ -497,6 +497,14 @@ body {
   color: #2370C8;
 }
 
+.pricing-body:hover .pricing-span {
+  color: #FFFFFF;
+}
+
+.pricing-body:hover .pricing-month-span {
+  color: #FFFFFF;
+}
+
 .pricing-button {
   height: 42px;
   width: 136px;
@@ -509,6 +517,24 @@ body {
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.18rem;
+}
+
+.pricing-span {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: #2370C8;
+}
+
+.pricing-month-span {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.18rem;
+  color: #262A4E;
+}
+
+.div-pricing-nested {
+  display: inline;
 }
 /****************** SEVENTH CONTAINER **********************/
 .seventh-container {
