@@ -4,6 +4,13 @@ body {
 
 }
 /****************** FIRST CONTAINER **********************/
+#navbarToggleExternalContent {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .first-container {
   height: 813px;
   background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
@@ -297,7 +304,7 @@ body {
 
 .fourth-container-wrapper {
   justify-content: center;
-  width: 75%;
+  width: 73%;
   margin-inline: auto;
 }
 
@@ -322,8 +329,9 @@ body {
 }
 
 .portfolio-button-div {
-  width: auto;
+  width: 200px;
   margin-inline: auto;
+  display: flex;
 }
 
 .portfolio-button1 {
@@ -613,11 +621,11 @@ body {
 .eighth-container-wrapper {
   margin-inline: auto;
   align-items: center;
-  width: 90%;
+  width: 75%;
 }
 
 .eighth-blog-div {
-  width: 300px;
+  width: 350px;
   margin-bottom: 3%;
   margin-inline: auto;
 }
@@ -668,12 +676,12 @@ body {
   width: 455px;
   background: #FFFFFF;
   border: 1px solid #3782D7;
-  margin-left: 2%;
   display: flex;
   flex-direction: column;
   text-align: left;
   justify-content: center;
   margin-bottom: 3%;
+  margin-inline: auto;
 }
 
 .eighth-blog-content-div:hover {
@@ -692,11 +700,27 @@ body {
   color: #FFFFFF;
 }
 
+.eight-button-div-wrapper {
+  position: relative;
+  margin-inline: auto;
+  flex-direction: column;
+  width: 600px;
+}
+
 .eighth-button-div {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  width: auto;
   margin-inline: auto;
+}
+
+@media screen and (min-width: 1400px) {
+  .eight-button-div-wrapper {
+    position: relative;
+    margin-inline: auto;
+    flex-direction: column;
+    width: 50px;
+  }
 }
 
 .eighth-button1 {
